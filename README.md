@@ -1,6 +1,6 @@
 ## 🌟 项目简介
 
-本项目是基于AIGC技术的少数民族首饰数字化传承与创新设计平台。通过融合前沿的Stable Diffusion、Hunyuan3D、TripoSR等AI模型，我们实现了从文本描述到高质量3D首饰模型的端到端生成，致力于解决少数民族非遗工艺的传承危机，推动文化创新。
+本项目是基于AIGC技术的少数民族首饰数字化传承与创新设计平台。通过融合前沿的Stable Diffusion、Hunyuan3D、TripoSR等AI模型，我们实现了从文本描述到高质量3D首饰模型的生成，致力于解决少数民族非遗工艺的传承危机，推动文化创新。
 
 ## 🎯 核心功能
 
@@ -21,6 +21,7 @@
 
 bash
 git clone https://github.com/raye11/Jewelry-3d-model-generator.git
+
 cd Jewelry-3d-model-generator
 
 🎨 使用示例
@@ -37,32 +38,33 @@ text
 可导出为.glb格式用于3D打印
 
 
-Stable Diffusion XL
-bibtex
-@software{rombach2021highresolution,
-  title={High-Resolution Image Synthesis with Latent Diffusion Models},
-  author={Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj\"orn},
-  year={2021},
-  url={https://github.com/Stability-AI/stablediffusion}
-}
-TripoSR
-bibtex
-@article{triposr2024,
-  title={TripoSR: Fast 3D Object Reconstruction from a Single Image},
-  author={Tsiriklis, Dimitrios and others},
-  journal={arXiv preprint arXiv:2403.02151},
-  year={2024},
-  url={https://github.com/VAST-AI-Research/TripoSR}
-}
-Hunyuan3D-2.1
-bibtex
-@software{tencent2024hunyuan3d,
-  title={Hunyuan3D-2.1: Advanced 3D Generation Model},
-  author={Tencent},
-  year={2024},
-  url={https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1}
-}
+## 📚 参考文献与引用
 
+### 核心模型引用
+
+#### Stable Diffusion XL
+```bibtex
+@inproceedings{rombach2022highresolution,
+  title={High-Resolution Image Synthesis with Latent Diffusion Models},
+  author={Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\"o}rn},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={10684--10695},
+  year={2022}
+}
+@software{tencent2024hunyuan3d,
+  title={Hunyuan3D-2.1: A Novel 3D Generation Framework via Diffusion Transformer},
+  author={Tencent Hunyuan},
+  year={2024},
+  url={https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1},
+  note={Tencent Hunyuan 3D 2.1 Community License}
+}
+@article{li2025triposg,
+  title={TripoSG: High-Fidelity 3D Shape Synthesis using Large-Scale Rectified Flow Models},
+  author={Li, Yangguang and Zou, Zi-Xin and Liu, Zexiang and Wang, Dehu and Liang, Yuan and Yu, Zhipeng and Liu, Xingchao and Guo, Yuan-Chen and Liang, Ding and Ouyang, Wanli and others},
+  journal={arXiv preprint arXiv:2502.06608},
+  url={https://lgithub.xyz/VAST-AI-Research/TripoSG},
+  year={2025}
+}
 📄 许可证
 本项目采用 MIT 许可证 - 详见 LICENSE 文件。
 
