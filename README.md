@@ -7,7 +7,7 @@
 - **智能文生3D**：输入民族文化描述，自动生成对应的3D首饰模型
 - **多模态生成**：支持文本→图像→3D模型的完整生成流程
 - **文化精准性**：针对苗族银饰、藏族珊瑚、彝族漆器等特定民族风格优化
-- **可制造输出**：生成水密、可3D打印的高质量网格模型
+- **可制造输出**：生成3D高质量网格模型
 
 ## 🛠️ 技术架构
 文化描述 → DeepSeek大模型 → 精准提示词 → SDXL生成 → Hunyuan3D/TripoSG → 3D模型
@@ -37,6 +37,35 @@ text
 
 可导出为.glb格式用于3D打印
 
+## 📄 许可证
+本项目采用 MIT 许可证 - 详见 LICENSE 文件。
+
+注意：本项目使用的第三方模型受其各自许可证约束：
+
+Stable Diffusion XL: CreativeML Open RAIL++-M License
+
+Hunyuan3D-2.1: Tencent Hunyuan 3D 2.1 Community License
+
+TripoSR: Apache License 2.0
+
+## 🤝 致谢
+感谢以下开源项目为本研究提供的技术支持：
+
+Stability AI - 提供Stable Diffusion XL模型
+
+Tencent Hunyuan - 提供Hunyuan3D-2.1模型
+
+VAST AI Research - 提供TripoSG模型
+
+AUTOMATIC1111 - 提供WebUI框架
+
+📞 联系我们
+如有问题或合作意向，请通过以下方式联系：
+
+GitHub Issues: 项目Issues页面
+
+邮箱: 1024128103@qq.com
+
 
 ## 📚 参考文献与引用
 
@@ -65,32 +94,3 @@ text
   url={https://lgithub.xyz/VAST-AI-Research/TripoSG},
   year={2025}
 }
-📄 许可证
-本项目采用 MIT 许可证 - 详见 LICENSE 文件。
-
-注意：本项目使用的第三方模型受其各自许可证约束：
-
-Stable Diffusion XL: CreativeML Open RAIL++-M License
-
-Hunyuan3D-2.1: Tencent Hunyuan 3D 2.1 Community License
-
-TripoSR: Apache License 2.0
-
-🤝 致谢
-感谢以下开源项目为本研究提供的技术支持：
-
-Stability AI - 提供Stable Diffusion XL模型
-
-Tencent Hunyuan - 提供Hunyuan3D-2.1模型
-
-VAST AI Research - 提供TripoSG模型
-
-AUTOMATIC1111 - 提供WebUI框架
-
-📞 联系我们
-如有问题或合作意向，请通过以下方式联系：
-
-GitHub Issues: 项目Issues页面
-
-邮箱: 1024128103@qq.com
-
