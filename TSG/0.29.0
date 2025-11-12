@@ -1,0 +1,36 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: diffusers in d:\work\miniconda\envs\tpsg\lib\site-packages (0.27.2)
+Collecting diffusers
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2a/2e/38d9824f8c6bb048c5ba21c6d4da54c29c162a46b58b3ef907a360a76d3e/diffusers-0.35.2-py3-none-any.whl (4.1 MB)
+     ---------------------------------------- 4.1/4.1 MB 423.7 kB/s  0:00:09
+Requirement already satisfied: importlib_metadata in d:\work\miniconda\envs\tpsg\lib\site-packages (from diffusers) (8.7.0)
+Requirement already satisfied: filelock in d:\work\miniconda\envs\tpsg\lib\site-packages (from diffusers) (3.19.1)
+Collecting huggingface-hub>=0.34.0 (from diffusers)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/31/a0/651f93d154cb72323358bf2bbae3e642bdb5d2f1bfc874d096f7cb159fa0/huggingface_hub-0.35.3-py3-none-any.whl (564 kB)
+Requirement already satisfied: numpy in d:\work\miniconda\envs\tpsg\lib\site-packages (from diffusers) (1.24.3)
+Requirement already satisfied: regex!=2019.12.17 in d:\work\miniconda\envs\tpsg\lib\site-packages (from diffusers) (2025.9.18)
+Requirement already satisfied: requests in d:\work\miniconda\envs\tpsg\lib\site-packages (from diffusers) (2.32.5)
+Requirement already satisfied: safetensors>=0.3.1 in d:\work\miniconda\envs\tpsg\lib\site-packages (from diffusers) (0.4.5)
+Requirement already satisfied: Pillow in d:\work\miniconda\envs\tpsg\lib\site-packages (from diffusers) (9.5.0)
+Requirement already satisfied: fsspec>=2023.5.0 in d:\work\miniconda\envs\tpsg\lib\site-packages (from huggingface-hub>=0.34.0->diffusers) (2024.6.1)
+Requirement already satisfied: packaging>=20.9 in d:\work\miniconda\envs\tpsg\lib\site-packages (from huggingface-hub>=0.34.0->diffusers) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in d:\work\miniconda\envs\tpsg\lib\site-packages (from huggingface-hub>=0.34.0->diffusers) (6.0.2)
+Requirement already satisfied: tqdm>=4.42.1 in d:\work\miniconda\envs\tpsg\lib\site-packages (from huggingface-hub>=0.34.0->diffusers) (4.67.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in d:\work\miniconda\envs\tpsg\lib\site-packages (from huggingface-hub>=0.34.0->diffusers) (4.15.0)
+Requirement already satisfied: colorama in d:\work\miniconda\envs\tpsg\lib\site-packages (from tqdm>=4.42.1->huggingface-hub>=0.34.0->diffusers) (0.4.6)
+Requirement already satisfied: zipp>=3.20 in d:\work\miniconda\envs\tpsg\lib\site-packages (from importlib_metadata->diffusers) (3.23.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in d:\work\miniconda\envs\tpsg\lib\site-packages (from requests->diffusers) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in d:\work\miniconda\envs\tpsg\lib\site-packages (from requests->diffusers) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in d:\work\miniconda\envs\tpsg\lib\site-packages (from requests->diffusers) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in d:\work\miniconda\envs\tpsg\lib\site-packages (from requests->diffusers) (2025.8.3)
+Installing collected packages: huggingface-hub, diffusers
+  Attempting uninstall: huggingface-hub
+    Found existing installation: huggingface-hub 0.22.2
+    Uninstalling huggingface-hub-0.22.2:
+      Successfully uninstalled huggingface-hub-0.22.2
+  Attempting uninstall: diffusers
+    Found existing installation: diffusers 0.27.2
+    Uninstalling diffusers-0.27.2:
+      Successfully uninstalled diffusers-0.27.2
+
+Successfully installed diffusers-0.35.2 huggingface-hub-0.35.3

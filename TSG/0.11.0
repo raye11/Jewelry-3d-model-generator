@@ -1,0 +1,5 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: transformers in d:\work\miniconda\envs\tpsg\lib\site-packages (4.37.2)
+Collecting transformers
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/71/d3/c16c3b3cf7655a67db1144da94b021c200ac1303f82428f2beef6c2e72bb/transformers-4.57.1-py3-none-any.whl (12.0 MB)
+                                              0.3/12.0 MB ? eta -:--:--

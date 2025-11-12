@@ -1,0 +1,62 @@
+
+# Build Tools
+ninja
+pybind11
+
+# Core ML/Deep Learning
+transformers
+diffusers
+accelerate
+pytorch-lightning
+huggingface-hub
+safetensors
+
+# Scientific Computing
+numpy
+scipy
+einops
+pandas
+
+# Computer Vision & Image Processing
+opencv-python
+imageio
+scikit-image
+rembg
+realesrgan
+basicsr
+
+# 3D Mesh Processing
+trimesh
+pymeshlab
+pygltflib
+xatlas
+open3d
+
+# Configuration Management
+omegaconf
+pyyaml
+configargparse
+
+# Web Framework (for demo)
+gradio
+fastapi
+uvicorn
+
+# Utilities
+tqdm
+psutil
+
+# GPU Computing (requires CUDA)
+cupy-cuda12x==13.4.1
+
+# ONNX Runtime
+onnxruntime
+torchmetrics
+
+pydantic
+
+timm
+pythreejs
+torchdiffeq
+deepspeed
+
